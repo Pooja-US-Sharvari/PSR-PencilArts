@@ -1,0 +1,18 @@
+/* Header styles */
+.header {
+    padding: 4rem 2rem;
+    color: rgb(131, 99, 99);
+    background: #eae4e4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin: 0;
+  }

@@ -1,0 +1,21 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'outfit';
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #ffffff, #f0f2f5);
+  color: #333;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+span {
+  background: linear-gradient(135deg, #DF8908 10%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

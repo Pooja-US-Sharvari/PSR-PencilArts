@@ -1,0 +1,27 @@
+/* Section styles */
+section {
+    padding: 4rem 2rem;
+  }
+  
+  .about, .contact {
+    background: white;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2, .services h2, .contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .about h2::after, .services h2::after, .contact h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, #aa50c6, #f05ca3);
+    display: block;
+    margin: 0.5rem auto 0 auto;
+  }
