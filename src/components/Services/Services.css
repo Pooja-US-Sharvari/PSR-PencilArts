@@ -49,9 +49,5 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .services h2 {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    position: relative;
-  }
+  
   
